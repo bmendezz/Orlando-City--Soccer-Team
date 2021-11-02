@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    src: url('../stuff/fonts/open-sans/SairaExtraCondensed-Regular.ttf');
+    font-size: 1em;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -131,6 +137,27 @@ header .header-black li a {
 header #logotipo
 {
     position: absolute;
-    margin-top: -2px;
+    margin-top: 5px;
+    margin-left: -137px;
 }
 
+#menu {
+    margin-top: 25px ;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Saira Extra Condensed', sans-serif;
+
+    
+    
+}
+#menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 25px;
+   
+    
+}
