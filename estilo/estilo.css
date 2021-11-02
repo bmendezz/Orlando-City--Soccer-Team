@@ -102,7 +102,23 @@ header .header-black li.club-17 {
 }
 
 header .header-black li.club-18 {
-    background-position: -761px 0px;
+    background-position: -806px 0px;
+}
+
+header .header-black li.club-19 {
+    background-position: -856px 0px;
+}
+
+header .header-black li.club-20 {
+    background-position: -900px 0px;
+}
+
+header .header-black li.club-21 {
+    background-position: -948px 0px;
+}
+
+header .header-black li.club-22 {
+    background-position: -996px 0px;
 }
 
 
@@ -115,6 +131,6 @@ header .header-black li a {
 header #logotipo
 {
     position: absolute;
-    margin-top: -35px;
+    margin-top: -2px;
 }
 
