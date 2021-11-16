@@ -143,6 +143,7 @@ header #logotipo
 
 #menu {
     margin-top: 25px ;
+    line-height: 30px;
 }
 
 #menu li {
@@ -150,9 +151,23 @@ header #logotipo
     list-style: none;
     font-family: 'Saira Extra Condensed', sans-serif;
 
-    
-    
 }
+
+#menu li.search {
+    width: 182px;
+}
+#menu li.search input {
+    background: #5c2d90;
+    color: #fff;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+}
+#menu li.search ::-webkit-input-placeholder {
+    color: #fff;
+}
+
 #menu li a {
     text-decoration: none;
     color: #fff;
@@ -160,4 +175,16 @@ header #logotipo
     padding: 10px 25px;
    
     
+}
+
+.input-group-btn button {
+    background: none;
+    border: none;
+    color: #fff;
+} 
+
+.input-group-btn button:hover {
+    background: none;
+    color: #fff;
+    outline: none;
 }
